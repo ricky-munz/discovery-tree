@@ -9,6 +9,7 @@
     }
   ],
   "defaultOptions" : {
+    "codeCoverage" : false,
     "targetForVariableExpansion" : {
       "containerPath" : "container:DiscoveryTree.xcodeproj",
       "identifier" : "9C456EFD2B34CDD900360121",
