@@ -12,19 +12,10 @@
 		9C456F062B34CDDA00360121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F052B34CDDA00360121 /* Assets.xcassets */; };
 		9C456F0A2B34CDDA00360121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F092B34CDDA00360121 /* Preview Assets.xcassets */; };
 		9C456F142B34CDDA00360121 /* DiscoveryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */; };
-		9C456F1E2B34CDDA00360121 /* DiscoveryTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F1D2B34CDDA00360121 /* DiscoveryTreeUITests.swift */; };
-		9C456F202B34CDDA00360121 /* DiscoveryTreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F1F2B34CDDA00360121 /* DiscoveryTreeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9C456F102B34CDDA00360121 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C456EF62B34CDD900360121 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C456EFD2B34CDD900360121;
-			remoteInfo = DiscoveryTree;
-		};
-		9C456F1A2B34CDDA00360121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9C456EF62B34CDD900360121 /* Project object */;
 			proxyType = 1;
@@ -42,9 +33,7 @@
 		9C456F092B34CDDA00360121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C456F0F2B34CDDA00360121 /* DiscoveryTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveryTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTreeTests.swift; sourceTree = "<group>"; };
-		9C456F192B34CDDA00360121 /* DiscoveryTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveryTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C456F1D2B34CDDA00360121 /* DiscoveryTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTreeUITests.swift; sourceTree = "<group>"; };
-		9C456F1F2B34CDDA00360121 /* DiscoveryTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C456F2C2B34D48900360121 /* DiscoveryTree.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiscoveryTree.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,22 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C456F162B34CDDA00360121 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9C456EF52B34CDD900360121 = {
 			isa = PBXGroup;
 			children = (
+				9C456F2C2B34D48900360121 /* DiscoveryTree.xctestplan */,
 				9C456F002B34CDD900360121 /* DiscoveryTree */,
 				9C456F122B34CDDA00360121 /* DiscoveryTreeTests */,
-				9C456F1C2B34CDDA00360121 /* DiscoveryTreeUITests */,
 				9C456EFF2B34CDD900360121 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +69,6 @@
 			children = (
 				9C456EFE2B34CDD900360121 /* DiscoveryTree.app */,
 				9C456F0F2B34CDDA00360121 /* DiscoveryTreeTests.xctest */,
-				9C456F192B34CDDA00360121 /* DiscoveryTreeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +99,6 @@
 				9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */,
 			);
 			path = DiscoveryTreeTests;
-			sourceTree = "<group>";
-		};
-		9C456F1C2B34CDDA00360121 /* DiscoveryTreeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9C456F1D2B34CDDA00360121 /* DiscoveryTreeUITests.swift */,
-				9C456F1F2B34CDDA00360121 /* DiscoveryTreeUITestsLaunchTests.swift */,
-			);
-			path = DiscoveryTreeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,24 +139,6 @@
 			productReference = 9C456F0F2B34CDDA00360121 /* DiscoveryTreeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9C456F182B34CDDA00360121 /* DiscoveryTreeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C456F292B34CDDA00360121 /* Build configuration list for PBXNativeTarget "DiscoveryTreeUITests" */;
-			buildPhases = (
-				9C456F152B34CDDA00360121 /* Sources */,
-				9C456F162B34CDDA00360121 /* Frameworks */,
-				9C456F172B34CDDA00360121 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9C456F1B2B34CDDA00360121 /* PBXTargetDependency */,
-			);
-			name = DiscoveryTreeUITests;
-			productName = DiscoveryTreeUITests;
-			productReference = 9C456F192B34CDDA00360121 /* DiscoveryTreeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +153,6 @@
 						CreatedOnToolsVersion = 15.1;
 					};
 					9C456F0E2B34CDDA00360121 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 9C456EFD2B34CDD900360121;
-					};
-					9C456F182B34CDDA00360121 = {
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = 9C456EFD2B34CDD900360121;
 					};
@@ -223,7 +173,6 @@
 			targets = (
 				9C456EFD2B34CDD900360121 /* DiscoveryTree */,
 				9C456F0E2B34CDDA00360121 /* DiscoveryTreeTests */,
-				9C456F182B34CDDA00360121 /* DiscoveryTreeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9C456F0D2B34CDDA00360121 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C456F172B34CDDA00360121 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C456F152B34CDDA00360121 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C456F1E2B34CDDA00360121 /* DiscoveryTreeUITests.swift in Sources */,
-				9C456F202B34CDDA00360121 /* DiscoveryTreeUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +221,6 @@
 			isa = PBXTargetDependency;
 			target = 9C456EFD2B34CDD900360121 /* DiscoveryTree */;
 			targetProxy = 9C456F102B34CDDA00360121 /* PBXContainerItemProxy */;
-		};
-		9C456F1B2B34CDDA00360121 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9C456EFD2B34CDD900360121 /* DiscoveryTree */;
-			targetProxy = 9C456F1A2B34CDDA00360121 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -533,50 +461,6 @@
 			};
 			name = Release;
 		};
-		9C456F2A2B34CDDA00360121 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LMP86F23V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickymunz.DiscoveryTreeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DiscoveryTree;
-			};
-			name = Debug;
-		};
-		9C456F2B2B34CDDA00360121 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9LMP86F23V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rickymunz.DiscoveryTreeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DiscoveryTree;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,15 +487,6 @@
 			buildConfigurations = (
 				9C456F272B34CDDA00360121 /* Debug */,
 				9C456F282B34CDDA00360121 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C456F292B34CDDA00360121 /* Build configuration list for PBXNativeTarget "DiscoveryTreeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C456F2A2B34CDDA00360121 /* Debug */,
-				9C456F2B2B34CDDA00360121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
