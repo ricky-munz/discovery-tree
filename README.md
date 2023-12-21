@@ -11,3 +11,7 @@ The first defining feature of a Discovery Tree is its structure. As the name imp
 The second defining feature of a Discovery Tree is the state of a task. A task inherently starts with a state of “To Do”. Once big tasks have been broken down into smaller subtasks, the user chooses a task to work on. That task’s state is then marked as “In Progress”. This state is applied to all parent tasks up the hierarchy. Once a task is complete, it is marked as “done”. A parent task is only market done when all subtasks are marked “done” and there are no new subtasks to add to the parent task. Progress is updated in this fashion until the project is completed. An additional state of “blocked” can be added as a method of team communication or as a reminder to the user to circle back to a task when unblocked.
 
 But what does the “discovery” in Discovery Tree refer to? The essence of this tool is it allows a user to add requirements as they become clearer. Sometimes when working on big tasks, it’s not obvious what all the requirements or subtasks are. The Discovery Tree is a tool to describe the project as it unfolds and to communicate its progress to the user and the team.
+
+### Example:
+
+![image](https://github.com/ricky-munz/discovery-tree/assets/1377550/d2802810-3deb-4498-9387-ea360a5a4800)
