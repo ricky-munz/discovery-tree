@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3ABFDC2B34E47B001358E0 /* PlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3ABFDB2B34E47B001358E0 /* PlaceholderTests.swift */; };
 		9C456F022B34CDD900360121 /* DiscoveryTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F012B34CDD900360121 /* DiscoveryTreeApp.swift */; };
 		9C456F042B34CDD900360121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F032B34CDD900360121 /* ContentView.swift */; };
 		9C456F062B34CDDA00360121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F052B34CDDA00360121 /* Assets.xcassets */; };
 		9C456F0A2B34CDDA00360121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F092B34CDDA00360121 /* Preview Assets.xcassets */; };
-		9C456F142B34CDDA00360121 /* DiscoveryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */; };
 		9C456F482B34DA1100360121 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F472B34DA1100360121 /* Main.swift */; };
 		9C456F4A2B34DB4B00360121 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F492B34DB4B00360121 /* TestApp.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C3ABFDB2B34E47B001358E0 /* PlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTests.swift; sourceTree = "<group>"; };
 		9C456EFE2B34CDD900360121 /* DiscoveryTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoveryTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C456F012B34CDD900360121 /* DiscoveryTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTreeApp.swift; sourceTree = "<group>"; };
 		9C456F032B34CDD900360121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		9C456F072B34CDDA00360121 /* DiscoveryTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiscoveryTree.entitlements; sourceTree = "<group>"; };
 		9C456F092B34CDDA00360121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C456F0F2B34CDDA00360121 /* DiscoveryTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveryTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTreeTests.swift; sourceTree = "<group>"; };
 		9C456F2C2B34D48900360121 /* DiscoveryTree.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiscoveryTree.xctestplan; sourceTree = "<group>"; };
 		9C456F472B34DA1100360121 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		9C456F492B34DB4B00360121 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		9C456F122B34CDDA00360121 /* DiscoveryTreeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C456F132B34CDDA00360121 /* DiscoveryTreeTests.swift */,
+				9C3ABFDB2B34E47B001358E0 /* PlaceholderTests.swift */,
 			);
 			path = DiscoveryTreeTests;
 			sourceTree = "<group>";
@@ -160,6 +160,7 @@
 					};
 					9C456F0E2B34CDDA00360121 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 						TestTargetID = 9C456EFD2B34CDD900360121;
 					};
 				};
@@ -218,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C456F142B34CDDA00360121 /* DiscoveryTreeTests.swift in Sources */,
+				9C3ABFDC2B34E47B001358E0 /* PlaceholderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +431,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9LMP86F23V;
@@ -443,6 +445,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoveryTree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiscoveryTree";
@@ -454,6 +457,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9LMP86F23V;
