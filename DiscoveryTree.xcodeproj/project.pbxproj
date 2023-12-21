@@ -12,7 +12,7 @@
 		9C456F042B34CDD900360121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F032B34CDD900360121 /* ContentView.swift */; };
 		9C456F062B34CDDA00360121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F052B34CDDA00360121 /* Assets.xcassets */; };
 		9C456F0A2B34CDDA00360121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C456F092B34CDDA00360121 /* Preview Assets.xcassets */; };
-		9C456F482B34DA1100360121 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F472B34DA1100360121 /* Main.swift */; };
+		9C456F482B34DA1100360121 /* MainEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F472B34DA1100360121 /* MainEntryPoint.swift */; };
 		9C456F4A2B34DB4B00360121 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C456F492B34DB4B00360121 /* TestApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		9C456F092B34CDDA00360121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C456F0F2B34CDDA00360121 /* DiscoveryTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveryTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C456F2C2B34D48900360121 /* DiscoveryTree.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiscoveryTree.xctestplan; sourceTree = "<group>"; };
-		9C456F472B34DA1100360121 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		9C456F472B34DA1100360121 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 		9C456F492B34DB4B00360121 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +80,7 @@
 		9C456F002B34CDD900360121 /* DiscoveryTree */ = {
 			isa = PBXGroup;
 			children = (
-				9C456F472B34DA1100360121 /* Main.swift */,
+				9C456F472B34DA1100360121 /* MainEntryPoint.swift */,
 				9C456F492B34DB4B00360121 /* TestApp.swift */,
 				9C456F012B34CDD900360121 /* DiscoveryTreeApp.swift */,
 				9C456F032B34CDD900360121 /* ContentView.swift */,
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C456F482B34DA1100360121 /* Main.swift in Sources */,
+				9C456F482B34DA1100360121 /* MainEntryPoint.swift in Sources */,
 				9C456F4A2B34DB4B00360121 /* TestApp.swift in Sources */,
 				9C456F042B34CDD900360121 /* ContentView.swift in Sources */,
 				9C456F022B34CDD900360121 /* DiscoveryTreeApp.swift in Sources */,
