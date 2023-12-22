@@ -1,5 +1,7 @@
 # Discovery Tree
 
+[![Build](https://github.com/ricky-munz/discovery-tree/actions/workflows/build.yml/badge.svg)](https://github.com/ricky-munz/discovery-tree/actions/workflows/build.yml)
+
 Inspired by this post by Steve Kuo at Industrial Logic: https://www.industriallogic.com/blog/discovery-trees/
 
 Thanks to [Jon Reid](https://qualitycoding.org) for introducing me to this resource!
