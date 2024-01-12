@@ -12,8 +12,9 @@ struct MainEntryPoint {
     static func main() {
         if NSClassFromString("XCTestCase") != nil {
             TestApp.main()
-        } else {
-            DiscoveryTreeApp.main()
+            return
         }
+        
+        DiscoveryTreeApp.main()
     }
 }
