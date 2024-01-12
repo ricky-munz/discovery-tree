@@ -10,11 +10,15 @@ import Foundation
 @main
 struct MainEntryPoint {
     static func main() {
-        guard NSClassFromString("XCTestCase") == nil else {
+        guard isProduction() else {
             TestApp.main()
             return
         }
         
         DiscoveryTreeApp.main()
+    }
+    
+    fileprivate static func isProduction() -> Bool {
+        return NSClassFromString("XCTestCase") == nil
     }
 }
