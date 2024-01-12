@@ -10,7 +10,7 @@ import Foundation
 @main
 struct MainEntryPoint {
     static func main() {
-        if NSClassFromString("XCTestCase") != nil {
+        guard NSClassFromString("XCTestCase") == nil else {
             TestApp.main()
             return
         }
